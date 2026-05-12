@@ -207,18 +207,6 @@ Copy any private key from Hardhat terminal and import it into MetaMask.
 
 ---
 
-# 📸 Screenshots
-
-## 🔗 Wallet Connection
-_Add screenshot here_
-
-## 💸 Token Transfer
-_Add screenshot here_
-
-## ⚡ Mint Functionality
-_Add screenshot here_
-
----
 
 # 📈 Future Enhancements
 
