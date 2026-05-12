@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EduCoin Token</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6/dist/ethers.umd.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>EduCoin (EDU)</h1>
+
+    <button id="connectBtn">Connect Wallet</button>
+    <p id="account"></p>
+
+    <h3>Your Balance</h3>
+    <p id="balance">0</p>
+
+    <h3>Transfer Tokens</h3>
+    <input id="to" placeholder="Recipient Address">
+    <input id="amount" placeholder="Amount">
+    <button id="sendBtn">Send</button>
+
+    <p id="status"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
