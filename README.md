@@ -76,7 +76,7 @@ The project demonstrates how smart contracts interact with a modern frontend app
           ▼
 ┌────────────────────┐
 │     Ethers.js      │
-│ Contract Interaction│
+│Contract Interaction│
 └─────────┬──────────┘
           │
           ▼
