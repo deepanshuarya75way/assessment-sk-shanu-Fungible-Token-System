@@ -76,7 +76,9 @@ function App() {
       }
       const estimatedFee = estimatedGas * gasPrice;
       const formattedFee = ethers.formatEther(estimatedFee);
-      setGasEstimate(`${estimatedGas.toString()} gas = ${formattedFee} ETH`);
+      setGasEstimate(
+      `${estimatedGas.toString()} gas ≈ ${formattedFee} ETH`
+      );
       if(estimatedGas > 100000n){
         setGasWarning("Gas estimate is usually high. Please review the transaction.");
         setStatus("High gas estimate");
